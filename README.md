@@ -7,7 +7,8 @@ Se centra en la integración de **SQL** para el procesamiento de datos y **Power
 * El dataset fue obtenido de *https://www.kaggle.com/datasets/dmahajanbe23/bmw-global-automotive-sales*
 
 ### 📊 Dashboard Preview
-![BMW Sales Dashboard](01_dashboard_preview.png)
+![BMW Sales Dashboard](dashboard_preview_01.png)
+![BMW Sales Dashboard](dashboard_preview_02.png)
 
 ## 🛠️ Tecnologias
 * **Data Engineering (SQL):** Procesamiento de datos (EDA), limpieza profunda (ETL) y diseño de un modelo relacional en estrella (Star Schema).
@@ -16,11 +17,11 @@ Se centra en la integración de **SQL** para el procesamiento de datos y **Power
 ## 📂 Estructura
 El proceso técnico está documentado paso a paso dentro de los archivos SQL, donde se detalla cada etapa del análisis:
 
-1. **`bmw_sales.csv`**: Dataset fuente con los datos originales de la marca.
-2. **`bmw_eda.sql`**: **Análisis Exploratorio (EDA)**. Contiene la validación de integridad, detección de duplicados, manejo de nulos y limpieza inicial.
-3. **`bmw_etl_modeling.sql`**: **ETL y Modelado**. Documentación del proceso de transformación y creación de tablas de hechos y dimensiones para optimizar el análisis.
-4. **`bmw_analysis_queries.sql`**: **Consultas de Análisis**. Scripts diseñados para extraer insights específicos de negocio directamente desde la base de datos.
-5. **`bmw_dashboard.pbix`**: Dashboard interactivo donde se visualizan los hallazgos finales.
+1. **`00_bmw_sales.csv`**: Dataset fuente con los datos originales de la marca.
+2. **`01_bmw_eda.sql`**: **Análisis Exploratorio (EDA)**. Contiene la validación de integridad, detección de duplicados, manejo de nulos y limpieza inicial.
+3. **`02_bmw_etl_modeling.sql`**: **ETL y Modelado**. Documentación del proceso de transformación y creación de tablas de hechos y dimensiones para optimizar el análisis.
+4. **`03_bmw_analysis_queries.sql`**: **Consultas de Análisis**. Scripts diseñados para extraer insights específicos de negocio directamente desde la base de datos.
+5. **`04_bmw_dashboard.pbix`**: Dashboard interactivo donde se visualizan los hallazgos finales.
 6. **`bmw_night_theme.json`**: Configuración de la paleta de colores personalizada del reporte.
 
 ## 📖 Glosario de Datos (Data Dictionary)
