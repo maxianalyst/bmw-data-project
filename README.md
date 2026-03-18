@@ -17,7 +17,7 @@ Se centra en la integración de **SQL** para el procesamiento de datos y **Power
 ## 📂 Estructura
 El proceso técnico está documentado paso a paso dentro de los archivos SQL, donde se detalla cada etapa del análisis:
 
-1. **`00_bmw_sales.csv`**: Dataset fuente con los datos originales de la marca.
+1. **`00_bmw_sales.csv`**: Dataset con los datos originales.
 2. **`01_bmw_eda.sql`**: **Análisis Exploratorio (EDA)**. Contiene la validación de integridad, detección de duplicados, manejo de nulos y limpieza inicial.
 3. **`02_bmw_etl_modeling.sql`**: **ETL y Modelado**. Documentación del proceso de transformación y creación de tablas de hechos y dimensiones para optimizar el análisis.
 4. **`03_bmw_analysis_queries.sql`**: **Consultas de Análisis**. Scripts diseñados para extraer insights específicos de negocio directamente desde la base de datos.
