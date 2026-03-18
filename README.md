@@ -6,6 +6,9 @@ Se centra en la integración de **SQL** para el procesamiento de datos y **Power
 
 * El dataset fue obtenido de *https://www.kaggle.com/datasets/dmahajanbe23/bmw-global-automotive-sales*
 
+### 📊 Dashboard Preview
+![BMW Sales Dashboard](01_dashboard_preview.png)
+
 ## 🛠️ Tecnologias
 * **Data Engineering (SQL):** Procesamiento de datos (EDA), limpieza profunda (ETL) y diseño de un modelo relacional en estrella (Star Schema).
 * **Business Intelligence (Power BI):** Modelado de datos relacional, diseño de reportes interactivos y desarrollo de métricas y medidas mediante DAX.
@@ -20,11 +23,16 @@ El proceso técnico está documentado paso a paso dentro de los archivos SQL, do
 5. **`bmw_dashboard.pbix`**: Dashboard interactivo donde se visualizan los hallazgos finales.
 6. **`bmw_night_theme.json`**: Configuración de la paleta de colores personalizada del reporte.
 
-## 📖 Glosario de Métricas (Data Dictionary)
-Para facilitar la interpretación de los scripts de SQL y el Dashboard, se detallan las definiciones de negocio utilizadas:
+## 📖 Glosario de Datos (Data Dictionary)
+Para facilitar la interpretación de los scripts de SQL y el Dashboard, se detallan las variables del dataset original y las métricas calculadas:
 
-* **ASP (Average Selling Price):** Precio promedio de venta por unidad (Ingresos totales / Unidades vendidas).
-* **BEV Share:** Porcentaje de penetración de vehículos eléctricos de batería en el total de ventas.
-* **GDP Growth:** Variación porcentual del Producto Interno Bruto por región (Indicador macro).
-* **Fuel Price Index:** Índice de precios de combustible ajustado por región y año.
-* **Premium Share:** Participación de modelos de alta gama dentro del volumen total de ventas de la marca.
+* **Year / Month:** Periodo temporal del análisis (2018-2025).
+* **Region:** Mercados geográficos clave (Europe, China, USA, RestOfWorld).
+* **Model:** Variantes de modelos BMW analizados.
+* **Units_Sold:** Volumen de unidades entregadas por región, mes y modelo.
+* **ASP (Average Price EUR):** Precio promedio de transacción estimado por vehículo en Euros.
+* **Revenue_EUR:** Ingresos totales estimados (Units_Sold × Avg_Price_EUR).
+* **BEV Share (Battery Electric Vehicle):** Porcentaje de penetración de vehículos eléctricos de batería (0-1).
+* **Premium_Share:** Participación estimada de BMW dentro del segmento automotriz premium de cada región.
+* **GDP_Growth:** Tasa de crecimiento del PIB regional (%).
+* **Fuel_Price_Index:** Índice de costo relativo del combustible por mercado.
