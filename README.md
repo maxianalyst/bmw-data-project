@@ -1,7 +1,7 @@
 # BMW Global Sales & Market Intelligence Analysis
 
 ## 📌 Resumen del Proyecto
-Este proyecto presenta un análisis técnico del rendimiento de ventas globales de BMW (2018-2025). 
+Este proyecto presenta un análisis del rendimiento de ventas globales de BMW (2018-2025). 
 Se centra en la integración de **SQL** para el procesamiento de datos y **Power BI** para la visualización de resultados.
 
 * El dataset fue obtenido de *https://www.kaggle.com/datasets/dmahajanbe23/bmw-global-automotive-sales*
@@ -33,7 +33,7 @@ Para facilitar la interpretación de los scripts de SQL y el Dashboard, se detal
 * **Units_Sold:** Volumen de unidades entregadas por región, mes y modelo.
 * **ASP (Average Price EUR):** Precio promedio de transacción estimado por vehículo en Euros.
 * **Revenue_EUR:** Ingresos totales estimados (Units_Sold × Avg_Price_EUR).
-* **BEV Share (Battery Electric Vehicle):** Porcentaje de penetración de vehículos eléctricos de batería (0-1).
+* **BEV_Share (Battery Electric Vehicle):** Porcentaje de penetración de vehículos eléctricos de batería (0-1).
 * **Premium_Share:** Participación estimada de BMW dentro del segmento automotriz premium de cada región.
 * **GDP_Growth:** Tasa de crecimiento del PIB regional (%).
 * **Fuel_Price_Index:** Índice de costo relativo del combustible por mercado.
