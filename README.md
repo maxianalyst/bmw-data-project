@@ -1,7 +1,7 @@
 # BMW Global Sales & Market Intelligence Analysis
 
 ## 📌 Resumen del Proyecto
-Este proyecto presenta un análisis del rendimiento de ventas globales de BMW (2018-2025). 
+Este es mi primer proyecto y presenta un análisis del rendimiento de ventas globales de BMW (2018-2025). 
 Se centra en la integración de **SQL** para el procesamiento de datos y **Power BI** para la visualización de resultados.
 
 * El dataset fue obtenido de *https://www.kaggle.com/datasets/dmahajanbe23/bmw-global-automotive-sales*
@@ -25,15 +25,22 @@ El proceso técnico está documentado paso a paso dentro de los archivos SQL, do
 6. **`bmw_night_theme.json`**: Configuración de la paleta de colores personalizada del reporte.
 
 ## 📖 Glosario de Datos (Data Dictionary)
-Para facilitar la interpretación de los scripts de SQL y el Dashboard, se detallan las variables del dataset original y las métricas calculadas:
+Para facilitar la interpretación de los scripts de SQL y el Dashboard, se detallan las variables del dataset y los indicadores clave de desempeño (KPIs) desarrollados:
 
+### 🔹 Dimensiones y Variables Originales
 * **Year / Month:** Periodo temporal del análisis (2018-2025).
 * **Region:** Mercados geográficos clave (Europe, China, USA, RestOfWorld).
 * **Model:** Variantes de modelos BMW analizados.
-* **Units_Sold:** Volumen de unidades entregadas por región, mes y modelo.
-* **ASP (Average Price EUR):** Precio promedio de transacción estimado por vehículo en Euros.
-* **Revenue_EUR:** Ingresos totales estimados (Units_Sold × Avg_Price_EUR).
-* **BEV_Share (Battery Electric Vehicle):** Porcentaje de penetración de vehículos eléctricos de batería (0-1).
-* **Premium_Share:** Participación estimada de BMW dentro del segmento automotriz premium de cada región.
-* **GDP_Growth:** Tasa de crecimiento del PIB regional (%).
+* **Engine Type:** Categorización del tipo de motor (Combustión Interna vs. Eléctrico/BEV).
+* **GDP_Growth:** Tasa de crecimiento del PIB regional (Indicador macroeconómico).
 * **Fuel_Price_Index:** Índice de costo relativo del combustible por mercado.
+
+### 📈 Métricas y KPIs Calculados
+* **Total Units:** Volumen total de vehículos entregados en el periodo.
+* **BEV Units:** Cantidad de vehículos eléctricos de batería (Battery Electric Vehicle) vendidos.
+* **Total Revenue:** Ingresos totales estimados (Units_Sold × Avg_Price_EUR).
+* **ASP (Average Selling Price):** Precio promedio de transacción por unidad vendida.
+* **MoM Growth (Month-over-Month):** Variación porcentual del volumen de ventas respecto al mes anterior.
+* **BEV Share:** Porcentaje de penetración de vehículos eléctricos sobre el total de ventas.
+* **Sales vs GDP Index:** Relación porcentual entre el rendimiento de ventas y el crecimiento económico regional.
+* **Premium Share:** Participación estimada de BMW dentro del segmento automotriz premium de cada región.
