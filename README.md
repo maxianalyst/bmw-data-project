@@ -1,8 +1,8 @@
 # BMW Global Sales & Market Intelligence Analysis
 
 ## 📌 Resumen del Proyecto
-Este es mi primer proyecto y presenta un análisis del rendimiento de ventas globales de BMW (2018-2025). 
-Se centra en la integración de **SQL** para el procesamiento de datos y **Power BI** para la visualización de resultados.
+Este proyecto presenta un análisis del rendimiento de ventas globales de BMW (2018-2025).
+El proyecto combina un Análisis Exploratorio (EDA) en Python para auditar la calidad de los datos, junto con un flujo de SQL y Power BI para la transformación y visualización de resultados.
 
 * El dataset fue obtenido de *https://www.kaggle.com/datasets/dmahajanbe23/bmw-global-automotive-sales*
 
@@ -10,9 +10,10 @@ Se centra en la integración de **SQL** para el procesamiento de datos y **Power
 ![BMW Sales Dashboard](dashboard_preview_01.png)
 ![BMW Sales Dashboard](dashboard_preview_02.png)
 
-## 🛠️ Tecnologias
-* **Data Engineering (SQL):** Procesamiento de datos (EDA), limpieza profunda (ETL) y diseño de un modelo relacional en estrella (Star Schema).
-* **Business Intelligence (Power BI):** Modelado de datos relacional, diseño de reportes interactivos y desarrollo de métricas y medidas mediante DAX.
+## 🛠️ Tecnologías
+* **MySQL:** Procesamiento de datos, limpieza profunda (ETL) y diseño de un modelo de datos relacional (Star Schema).
+* **Microsoft Power BI:** Modelado de datos relacional, diseño de reportes interactivos y desarrollo de métricas y medidas mediante DAX.
+* **Python:** Análisis Exploratorio de Datos (EDA) para auditoría estadística, detección de valores atípicos (Outliers) y validación de integridad de los datos.
 
 ## 📂 Estructura
 El proceso técnico está documentado paso a paso dentro de los archivos SQL, donde se detalla cada etapa del análisis:
@@ -22,9 +23,10 @@ El proceso técnico está documentado paso a paso dentro de los archivos SQL, do
 3. **`02_bmw_etl_modeling.sql`**: **ETL y Modelado**. Documentación del proceso de transformación y creación de tablas de hechos y dimensiones para optimizar el análisis.
 4. **`03_bmw_analysis_queries.sql`**: **Consultas de Análisis**. Scripts diseñados para extraer insights específicos de negocio directamente desde la base de datos.
 5. **`04_bmw_dashboard.pbix`**: Dashboard interactivo donde se visualizan los hallazgos finales.
-6. **`bmw_night_theme.json`**: Configuración de la paleta de colores personalizada del reporte.
+6. **`bmw_poython.ipynb`**: Análisis de Datos con Python. Un espacio de exploración para entender cómo se distribuyen las ventas, encontrar errores en los datos y crear gráficos técnicos que complementan el tablero final.
+7. **`bmw_night_theme.json`**: Configuración de la paleta de colores personalizada del reporte.
 
-## 📖 Glosario de Datos (Data Dictionary)
+## 📖 Glosario de Datos
 Para facilitar la interpretación de los scripts de SQL y el Dashboard, se detallan las variables del dataset y los indicadores clave de desempeño (KPIs) desarrollados:
 
 ### 🔹 Dimensiones y Variables Originales
