@@ -13,7 +13,7 @@ El proyecto combina un Análisis Exploratorio (EDA) en Python para auditar la ca
 ## 🛠️ Tecnologías
 * **MySQL:** Procesamiento de datos, limpieza profunda (ETL) y diseño de un modelo de datos relacional (Star Schema).
 * **Microsoft Power BI:** Modelado de datos relacional, diseño de reportes interactivos y desarrollo de métricas y medidas mediante DAX.
-* **Python:** Análisis Exploratorio de Datos (EDA) para auditoría estadística, detección de valores atípicos (Outliers) y validación de integridad de los datos.
+* **Python:** Exploración de los datos para entender su comportamiento, detectar errores y validar la calidad antes del análisis final.
 
 ## 📂 Estructura
 El proceso técnico está documentado paso a paso dentro de los archivos SQL, donde se detalla cada etapa del análisis:
@@ -23,7 +23,7 @@ El proceso técnico está documentado paso a paso dentro de los archivos SQL, do
 3. **`02_bmw_etl_modeling.sql`**: **ETL y Modelado**. Documentación del proceso de transformación y creación de tablas de hechos y dimensiones para optimizar el análisis.
 4. **`03_bmw_analysis_queries.sql`**: **Consultas de Análisis**. Scripts diseñados para extraer insights específicos de negocio directamente desde la base de datos.
 5. **`04_bmw_dashboard.pbix`**: Dashboard interactivo donde se visualizan los hallazgos finales.
-6. **`bmw_poython.ipynb`**: Análisis de Datos con Python. Un espacio de exploración para entender cómo se distribuyen las ventas, encontrar errores en los datos y crear gráficos técnicos que complementan el tablero final.
+6. **`bmw_poython.ipynb`**: Notebook de exploración utilizado para analizar el comportamiento de los datos, detectar posibles errores y crear visualizaciones que ayuden a entender mejor las ventas.
 7. **`bmw_night_theme.json`**: Configuración de la paleta de colores personalizada del reporte.
 
 ## 📖 Glosario de Datos
