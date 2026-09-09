@@ -23,7 +23,7 @@ El proceso técnico está documentado paso a paso dentro de los archivos SQL, do
 3. **`02_bmw_etl_modeling.sql`**: **ETL y Modelado**. Documentación del proceso de transformación y creación de tablas de hechos y dimensiones para optimizar el análisis.
 4. **`03_bmw_analysis_queries.sql`**: **Consultas de Análisis**. Scripts diseñados para extraer insights específicos de negocio directamente desde la base de datos.
 5. **`04_bmw_dashboard.pbix`**: Dashboard interactivo donde se visualizan los hallazgos finales.
-6. **`bmw_poython.ipynb`**: Notebook de exploración utilizado para analizar el comportamiento de los datos, detectar posibles errores y crear visualizaciones que ayuden a entender mejor las ventas.
+6. **`bmw_python.ipynb`**: Notebook de exploración utilizado para analizar el comportamiento de los datos, detectar posibles errores y crear visualizaciones que ayuden a entender mejor las ventas.
 7. **`bmw_night_theme.json`**: Configuración de la paleta de colores personalizada del reporte.
 
 ## 📖 Glosario de Datos
